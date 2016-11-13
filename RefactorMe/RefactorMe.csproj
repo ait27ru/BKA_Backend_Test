@@ -39,8 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstantsHelper.cs" />
     <Compile Include="ProductDataConsolidator.cs" />
+    <Compile Include="ProductExtension.cs" />
+    <Compile Include="ProductFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README-FIRST.txt" />
